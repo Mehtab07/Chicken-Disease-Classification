@@ -5,7 +5,7 @@ from cnnClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
-from box import ConfigBox
+from box import ConfigBox #make sures dict values can be accessed with .key
 from pathlib import Path
 from typing import Any
 import base64
